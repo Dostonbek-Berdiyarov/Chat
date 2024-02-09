@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chat</title>
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- css -->
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <!-- header started -->
+    <header class="site-header">
+      <div class="container">
+        <div class="site-header__wrapper flex-box">
+          <a
+            class="site-header__link link-unstyle flex-box"
+            href="./index.html"
+          >
+            MARK ZUCKERBERG
+          </a>
+          <button class="site-header__btn" type="button"></button>
+        </div>
+      </div>
+    </header>
+    <!-- header ended -->
+    <!-- main started -->
+    <main class="site-maiin">
+      <!-- hero section started -->
+      <section class="hero">
+        <div class="container">
+          <div class="hero__wrapper">
+            <time class="hero__date flex-box" datetime="2024-02-09T1129"
+              >TODAY</time
+            >
+            <div class="hero__text-wrapper flex-box">
+              <time class="hero__time" datetime="2024-02-09T10:53">10:53</time>
+              <p class="hero__text hero__text-with-triangle flex-box">
+                Hi, Mark! I made a new design for  Messenger App.
+              </p>
+            </div>
+            <div class="hero__text-wrapper flex-box">
+              <time class="hero__time" datetime="2024-02-09T10:57">10:57</time>
+              <p class="hero__text hero__text-with-backtriangle flex-box">
+                Yo! Send it to my assistsnt and we’ll review it during the year.
+              </p>
+            </div>
+            <div class="hero__text-wrapper flex-box">
+              <time class="hero__time" datetime="2024-02-09T11:03">11:03</time>
+              <p class="hero__text hero__text-with-triangle flex-box">
+                But Mark...
+              </p>
+            </div>
+            <div class="hero__text-wrapper hero__text-wrapper--last flex-box">
+              <p class="hero__text">You were blocked by the user.</p>
+            </div>
+            <form
+              action="https://echo.htmlacademy.ru/courses"
+              class="hero__form flex-box"
+              method="POST"
+              autocomplete="off"
+            >
+              <input
+                class="hero__input"
+                type="text"
+                name="user_text"
+                aria-label="Enter your text"
+                placeholder="Enter your message"
+              />
+              <button class="hero__btn" type="submit">SEND</button>
+            </form>
+          </div>
+        </div>
+      </section>
+      <!-- hero section ended -->
+    </main>
+    <!-- main endded -->
+  </body>
+</html>
